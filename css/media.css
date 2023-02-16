@@ -1,0 +1,102 @@
+@media (min-width: 900px) {
+     .button {
+          display: none;
+     }
+     .background {
+          display: none;
+     }
+     .card-form p {
+          font-size: 14px;
+          color: black;
+     }
+}
+
+@media (max-width: 1262px) {
+     .block__img-small img:first-child {
+          width: 100%;
+          height: 130px;
+          position: absolute;
+          top: 370px;
+          z-index: 3;
+     }
+     .block__about-click {
+          display: flex;
+          width: 95%;
+          padding: 20px 40px 20px 40px;
+          justify-content: space-between;
+          flex-wrap: wrap;
+     }
+     .block__info-big h1 {
+          font-family: "Ubuntu";
+          font-size: 36px;
+          padding-top: 30px;
+          font-weight: 500;
+          color: #fff;
+          padding: 70px 40px 10px 40px;
+     }
+     .block__info-big p {
+          font-size: 20px;
+          font-weight: 400;
+          padding-top: 20px;
+          line-height: 30px;
+          padding: 30px 40px 0 40px;
+          color: #fff;
+     }
+     .block__about-click {
+          display: flex;
+          width: 95%;
+          padding: 15px 30px 15px 30px;
+          justify-content: space-between;
+          flex-wrap: wrap;
+     }
+     .card-form p {
+          font-size: 14px;
+          color: black;
+     }
+}
+
+@media (max-width: 900px) {
+     .button {
+          display: flex;
+     }
+     .background {
+          display: flex;
+     }
+     .header__container {
+          display: none;
+     }
+     .block__info {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          flex-wrap: wrap;
+          height: 3200px;
+          flex-direction: column;
+     }
+     .block__info-big {
+          width: 100%;
+     }
+     .block__img-small {
+          width: 100%;
+     }
+     .block__img-small-cat {
+          width: 100%;
+     }
+     .card-form p {
+          font-size: 14px;
+          color: black;
+     }
+}
+@media (max-width: 500px) {
+     .block__info-big {
+          height: 600px;
+     }
+}
+@media (max-width: 400px) {
+     .block__info-big {
+          height: 600px;
+     }
+     .block__info {
+          display: block;
+     }
+}
