@@ -91,12 +91,33 @@
      .block__info-big {
           height: 600px;
      }
+     .block__info {
+          display: block;
+          width: 100%;
+          flex-wrap: wrap;
+          height: 3200px;
+          flex-direction: column;
+     }
+     .footer-content p {
+          font-size: 9px;
+     }
 }
 @media (max-width: 400px) {
      .block__info-big {
-          height: 600px;
+          height: 900px;
      }
      .block__info {
           display: block;
+          width: 100%;
+          flex-wrap: wrap;
+          height: 3200px;
+          flex-direction: column;
+     }
+     .block__info {
+          display: block;
+          width: 100%;
+          flex-wrap: wrap;
+          padding-top: 300px;
+          flex-direction: column;
      }
 }
